@@ -1,0 +1,15 @@
+.superpowers/
+node_modules/
+dist/
+ios/**/xcuserdata/
+ios/build/
+
+# ABC ROM trial fonts are committed (private demo repo). fonts/ is the source of
+# truth; `npm run sync:fonts` refreshes the consumer copies below after changes.
+
+# live stakeholder-chat state written by the relay (seed is committed)
+server/.stakeholders.runtime.json
+.vercel
+.env*
+# local-only deck slides, never shared
+src/press/slides.local.tsx

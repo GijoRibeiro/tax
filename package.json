@@ -1,0 +1,43 @@
+{
+  "name": "taxfix-handoff",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "relay": "node server/relay.mjs",
+    "demo": "node scripts/demo.mjs",
+    "capture:advisor": "node scripts/capture-advisor.mjs",
+    "gen:ios": "node scripts/gen-ios.mjs",
+    "sync:fonts": "node scripts/sync-fonts.mjs",
+    "reset:first-run": "node scripts/first-run.mjs",
+    "specimens": "bash scripts/specimens.sh",
+    "stakeholders:agent": "node scripts/stakeholders-agent.mjs"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^7.18.3",
+    "ws": "^8.21.3"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.6",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@types/ws": "^8.18.1",
+    "@vitejs/plugin-react": "^6.1.0",
+    "jsdom": "^29.1.1",
+    "oxlint": "^1.79.0",
+    "playwright-core": "^1.62.1",
+    "typescript": "~6.0.2",
+    "vite": "^8.2.2",
+    "vitest": "^4.1.11"
+  }
+}

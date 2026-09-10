@@ -1,0 +1,47 @@
+/*
+ * ABC ROM Trial. Taxfix's brand typeface.
+ *
+ * TRIAL-licensed OTFs are NOT committed to this repo. Drop them in fonts/
+ * and run `npm run sync:fonts` to populate public/fonts/ (gitignored).
+ * Without them, these @font-face rules simply never resolve and every
+ * consumer falls back to the system stack defined in tokens.css
+ * (--font-sans lists the brand family first, then -apple-system etc.).
+ */
+
+@font-face {
+  font-family: 'ABC ROM Trial';
+  src: url('/fonts/ABCROM-Book-Trial.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ABC ROM Trial';
+  src: url('/fonts/ABCROM-Medium-Trial.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ABC ROM Trial';
+  src: url('/fonts/ABCROM-Bold-Trial.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ABC ROM Trial';
+  src: url('/fonts/ABCROM-Black-Trial.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Satoshi (Indian Type Foundry, Fontshare free licence, self-hosted in public/fonts-satoshi).
+   The advisor desk's text face, everything from the title to the table. */
+@font-face { font-family: 'Satoshi'; src: url('/fonts-satoshi/Satoshi-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Satoshi'; src: url('/fonts-satoshi/Satoshi-Medium.woff2') format('woff2'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Satoshi'; src: url('/fonts-satoshi/Satoshi-Bold.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: swap; }

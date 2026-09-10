@@ -1,0 +1,9 @@
+public/fonts
+fonts
+ios/Resources/Fonts
+ios/build
+dist
+node_modules
+server/.stakeholders.runtime.json
+# local-only deck slides, never shared
+src/press/slides.local.tsx

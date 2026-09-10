@@ -1,0 +1,63 @@
+{
+  "phase": "onboarding",
+  "items": [
+    {
+      "id": "id-doc",
+      "group": "identity",
+      "title": "Photo ID",
+      "explainer": "A passport or national ID. Anna needs to confirm it's really you.",
+      "lookLike": "The photo page of your passport.",
+      "optional": false,
+      "status": "needed"
+    },
+    {
+      "id": "tax-id",
+      "group": "identity",
+      "title": "Your tax ID",
+      "germanName": "Steuer-ID",
+      "explainer": "Your 11-digit Steuer-ID. Everyone in Germany gets one by post.",
+      "lookLike": "A letter from the Bundeszentralamt für Steuern.",
+      "optional": false,
+      "status": "needed"
+    },
+    {
+      "id": "lohnsteuer",
+      "group": "employment",
+      "title": "Annual income statement",
+      "germanName": "Lohnsteuerbescheinigung",
+      "explainer": "Your employer sent this in February, it summarises your salary and the tax you already paid.",
+      "lookLike": "One page, a grid of numbered boxes.",
+      "optional": false,
+      "status": "needed"
+    },
+    {
+      "id": "alg-bescheid",
+      "group": "benefits",
+      "title": "Unemployment benefits statement",
+      "germanName": "ALG‑I Leistungsbescheid",
+      "explainer": "The letter from the Agentur für Arbeit confirming your unemployment benefits. It's the reason your filing is required.",
+      "lookLike": "A letter titled 'Bewilligungsbescheid'.",
+      "optional": false,
+      "status": "needed"
+    },
+    {
+      "id": "bank",
+      "group": "identity",
+      "title": "Bank details for your refund",
+      "explainer": "Where your refund should land. IBAN is enough.",
+      "lookLike": "Your IBAN, from your banking app.",
+      "optional": false,
+      "status": "needed"
+    },
+    {
+      "id": "deductions",
+      "group": "deductions",
+      "title": "Receipts that could raise your refund",
+      "explainer": "Work equipment, relocation costs, courses, optional, but often worth real money.",
+      "lookLike": "Any receipts or invoices you kept.",
+      "optional": true,
+      "status": "needed"
+    }
+  ],
+  "followUps": []
+}

@@ -1,0 +1,42 @@
+:root {
+  /* color */
+  --color-primary: #a9e36b;        /* lime: the primary button fill, as in the Taxfix app */
+  --color-primary-ink: #154618;    /* text on lime */
+  --color-ink: #0c0b0a;
+  --color-ink-soft: #5b5b57;
+  --color-surface: #ffffff;
+  --color-surface-sunken: #fcf8f3; /* Taxfix cream: cards, option rows, the welcome card */
+  --color-surface-muted: #f4f4f2;  /* neutral grey for chat canvases and dense panels */
+  --color-line: #e6e4df;
+  --color-success: #2f8f3f;        /* check circles, selected-card border, progress */
+  --color-warning: #c98a00;
+  --color-issue: #d64545;
+  --color-info-bg: #e1f3d8;        /* green chips and the active tab pill */
+  --color-lime: #adee68;          /* Taxfix lime: highlights, pill CTAs on the web */
+  --color-lime-soft: #d6f5a4;     /* the result block on the assessment screen */
+  --color-accent: #154618;        /* dark green: text buttons, active labels, links */
+  --color-chip-indigo-bg: #e6eafb; --color-chip-indigo-ink: #3b3fa8;
+  --color-chip-purple: #b76cf0;
+  /* pastel discs for icon marks, from taxfix.de */
+  --color-pastel-lime: #adee68; --color-pastel-lilac: #b6c5f3; --color-pastel-orange: #f8c677; --color-pastel-purple: #dbb9f3;
+  --color-doc-line: #d9d9d9;
+  /* type */
+  --font-sans: 'ABC ROM Trial', -apple-system, 'SF Pro Text', 'Inter', system-ui, sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  --font-desk: 'Satoshi', var(--font-sans);              /* Anna's desk: one face, title to table */
+  --text-display: 28px; --text-title: 20px; --text-body: 16px; --text-caption: 13px;
+  --text-scale: 1;                  /* multiplies every brand font on the phone; the hub's live lever */
+  /* the phone's type scale, read through brandFont(.role) */
+  --text-phone-hero: 40px; --text-phone-title: 34px; --text-phone-display: 28px; --text-phone-heading: 22px; --text-phone-subheading: 20px;
+  --text-phone-body: 17px; --text-phone-secondary: 15px; --text-phone-small: 14px; --text-phone-caption: 13px; --text-phone-micro: 12px;
+  /* SF Symbol sizes on the phone, read through iconFont(token) */
+  --icon-xl: 30px; --icon-lg: 24px; --icon-md: 22px; --icon-sm: 18px;
+  --size-control: 56px;             /* height of the primary, secondary and icon buttons on the phone */
+  /* space (4pt grid) */
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px; --space-6: 24px; --space-8: 32px;
+  /* radius / elevation / motion */
+  --radius-card: 24px; --radius-pill: 999px; --radius-control: 18px; --radius-tag: 12px; --radius-tight: 4px;
+  --radius-desk: 12px; --radius-desk-control: 10px; /* Anna's desk: calmer corners than the phone */
+  --shadow-card: none;              /* flat surfaces, like taxfix.de: no shadows, no borders */
+  --motion-fast: 150ms; --motion-base: 250ms; --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}

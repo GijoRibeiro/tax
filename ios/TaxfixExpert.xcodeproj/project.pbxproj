@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07EE3BFE859BF77E5E343FAD /* Motion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44066598C21E83026023A13 /* Motion.swift */; };
+		0A6D79095A2B1E9E42249ACC /* advisor-jonas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF2B4F6C9D53860DB1FF3811 /* advisor-jonas.jpg */; };
+		0F381CFFD5D0976531B594B1 /* ComponentGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A43F34EE3A192BE8A54E24 /* ComponentGalleryView.swift */; };
+		0F3B1FBA03CE4C3082038C4E /* LiabilityResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA3F3978F16BA1BA7F245F2 /* LiabilityResultView.swift */; };
+		120D7632483807F0B20F147B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696ED851BE9181216D2A5A47 /* Models.swift */; };
+		143803B25722D943D0EF6E15 /* DemoMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3013D5C45574B06F1C7435 /* DemoMenu.swift */; };
+		1C99E1118D941FF46C69869D /* Tokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E0AC572CA2D5F7F3F62110 /* Tokens.swift */; };
+		2304C3E3FD2C72D28AB16C78 /* FlatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E35D7159005DD6FC3198688 /* FlatCard.swift */; };
+		2D4E532C1ADC54D0ECCA8F9C /* taxfix-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85589385E0A1D8C425CEB2D5 /* taxfix-logo.png */; };
+		2D61255A4464CFC9348A759E /* seed.json in Resources */ = {isa = PBXBuildFile; fileRef = 872FF2CDE029D75896A8C47B /* seed.json */; };
+		30528BC9D1C9268E9AC46D69 /* NotificationNudges.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB349628AA9CCE217587207 /* NotificationNudges.swift */; };
+		32DE5B380EA448DDF3D7089E /* welcome-mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 807F523CD9DD21AC02BC84AA /* welcome-mark.png */; };
+		3842AC5D490FDE8F61B3BE67 /* BottomActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DBA411F59D18A6BE6654E4 /* BottomActions.swift */; };
+		38E7C308B6E967C454FA2180 /* ChecklistItem+Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A260F495261347F5281F07C /* ChecklistItem+Symbol.swift */; };
+		42CA737B7651C5CA6B2AF58C /* anna.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A16C86FC7B91CC236A9F1FCC /* anna.jpg */; };
+		430F17666B1EAE298C7104FD /* TokenStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA0A653CFA6F68CE882DC45 /* TokenStyle.swift */; };
+		43F0293534D3DFFE72E7BF24 /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD50193A3835ED161515F8C /* FAQView.swift */; };
+		4ABBF81D6C9ABE38B105F5FE /* ScreenTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ED6BB6382EC2B690F66EC7 /* ScreenTitle.swift */; };
+		4C935A8A801AB5037B9403C8 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C830E00ADBCE89CF187B16 /* ItemDetailView.swift */; };
+		4D0070FEDB28AE32A18A3308 /* LiabilityQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5D1101974E6226887F7345 /* LiabilityQuestionView.swift */; };
+		4F288078469CFA07A5780784 /* TokenStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DAAFEA0D2CEA6974A7D2AE /* TokenStore.swift */; };
+		4F7DD8BA5B86E0AEEE5160D5 /* DocumentGuidance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB28B627113CF4B11088BBF9 /* DocumentGuidance.swift */; };
+		544C44FB1612B3E990D72F5C /* ChapterCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6F11D4E7855BFEEC5CB303 /* ChapterCarousel.swift */; };
+		55D61A3853CF6599900DCFD7 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC12FA23CB62B005510C3708 /* WelcomeView.swift */; };
+		593CFFD38757561AE75530EA /* HowItWorksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4540994EFCB3927C59B783F /* HowItWorksView.swift */; };
+		5A5AF0164E01A21B24043E6A /* CaseHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E0025D32F377C8F663D438 /* CaseHomeView.swift */; };
+		5AB8247A1A70044685FAF2ED /* advisor-jonas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF2B4F6C9D53860DB1FF3811 /* advisor-jonas.jpg */; };
+		5ED7EEAC9340643F6ED89803 /* advisor-tom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB595798AB210921E8F9107 /* advisor-tom.jpg */; };
+		6E62A405DABF129C5A2817EC /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17C985D6041C37EA658C114 /* PrimaryButton.swift */; };
+		72A3CBCC8F31358B835CEED2 /* ModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AA56E3509BA7AC52A96715 /* ModelsTests.swift */; };
+		7993C6BCE36E7A2501F9D489 /* advisor-mira.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5806AC371DC1EE8D7B6C35FB /* advisor-mira.jpg */; };
+		7A46240D677F20D3A885E8E9 /* ScannerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64D84DFAFE9A496974E23C4 /* ScannerSheet.swift */; };
+		85DC6B0B9EB4AF6A53525BF6 /* StatusPillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5745F67FF288745757B74860 /* StatusPillView.swift */; };
+		8799AEBA0BF262B4A1AEE930 /* StepTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6721AF85F77F359C9EF02D5D /* StepTimeline.swift */; };
+		8BA545DA9BE37BCEF2D15A0C /* ChecklistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CFB0209C9326593FD4960D /* ChecklistView.swift */; };
+		8EE515CFBD2EAC017E5A4250 /* NudgeNotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670BF87329C95C6DD2F2BF97 /* NudgeNotifier.swift */; };
+		947D7FE63F3153E674F33BAC /* BrandFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342D5D45693B1FFA4632F40A /* BrandFont.swift */; };
+		97DF9880DB767C5E3CEA0BD9 /* CardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F581FDFD27A8E1287DC2ED3 /* CardRow.swift */; };
+		985DC1EA035C80E2F118CEEE /* CollapsingHeaderScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32E9441E8BB0A8D148FE394 /* CollapsingHeaderScroll.swift */; };
+		9E01E200F48A531D426CE481 /* Chip.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A025C3D684CE3ADB2CB6E1 /* Chip.swift */; };
+		9E512B01D08BF7689BED4753 /* seed.json in Resources */ = {isa = PBXBuildFile; fileRef = 872FF2CDE029D75896A8C47B /* seed.json */; };
+		A0F5F0534C8445AD63CFBA54 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760AF7A53CE23B01C2872449 /* RootView.swift */; };
+		A6663CC8E160E131F0AFB1D4 /* CaseRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FACB416C384DE7F335F26CC /* CaseRootView.swift */; };
+		A994B89D521333201F04B5F9 /* TaxfixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47F9510471E2E6E3998FE4D /* TaxfixApp.swift */; };
+		ABBB139477E8D2B602C1E7C0 /* ChapterTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDEC974D1FB32752BB514E0 /* ChapterTile.swift */; };
+		B0064EC8FC3F84C8E3E7B479 /* taxfix-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85589385E0A1D8C425CEB2D5 /* taxfix-logo.png */; };
+		B14505FF14D1B3C848CC3357 /* anna.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A16C86FC7B91CC236A9F1FCC /* anna.jpg */; };
+		B668FD2E0AF47C39510AA681 /* CaseAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC2476719E137A1CFE23C4B /* CaseAction.swift */; };
+		B89F66FA3DCB87CECE3CD538 /* welcome-mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 807F523CD9DD21AC02BC84AA /* welcome-mark.png */; };
+		BEF8F185F5FA43DAA38DBD09 /* advisor-tom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB595798AB210921E8F9107 /* advisor-tom.jpg */; };
+		C2040541F8BD726887ABB359 /* OnboardingFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAE5AA3BD46F64E089BAF32 /* OnboardingFlow.swift */; };
+		C62B6737F614FA16F885CA15 /* notifications-hero.png in Resources */ = {isa = PBXBuildFile; fileRef = A2435F0C94A22DCFC46CAF04 /* notifications-hero.png */; };
+		C6DC0828190AC2D8343062AA /* CaseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C553739CB801EDFD18956B04 /* CaseStore.swift */; };
+		C6F34B0D7CDD464FD5DFDB56 /* StoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19215F50460C166A668B99EF /* StoreTests.swift */; };
+		C71D659D41EED8E811AD9594 /* NudgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED8DF4E719E5059A61BB9C8 /* NudgeTests.swift */; };
+		CC6ECD16AE1781557DD214F4 /* NotificationPermissionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83CC967D5C3D016FB2FE459 /* NotificationPermissionSheet.swift */; };
+		D218CBE87FB78909255A5AC0 /* QuestionsPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C7D8018DAEFF5D940C848 /* QuestionsPlaceholderView.swift */; };
+		D454D328C8837854779408DE /* AdvisorBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7733E924B7F67487C9E8D6 /* AdvisorBadge.swift */; };
+		DB4F5BDD2920B3F76CCD8FED /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6693D258D2EC5825273EB3 /* ChatView.swift */; };
+		E128B8CC32A7C1D5A2C99DCA /* ResultBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C62361D057A6F01F2D45645 /* ResultBlock.swift */; };
+		EEB2EB7DE23ABCC4077C2305 /* AdvisorPortrait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3F2ABCE56ED99BB8A6113B /* AdvisorPortrait.swift */; };
+		F47C366D64362AB93C35AB57 /* notifications-hero.png in Resources */ = {isa = PBXBuildFile; fileRef = A2435F0C94A22DCFC46CAF04 /* notifications-hero.png */; };
+		FB9E2FD3F5233B928953AAAB /* PricingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FC73287909C47E50FE98F6 /* PricingView.swift */; };
+		FFE1474ABBE378CF791A6008 /* advisor-mira.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5806AC371DC1EE8D7B6C35FB /* advisor-mira.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAF8D168DAA36CAFD83C2340 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38B269DC95C8E298D77DE382 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1FF708163943820EA46223C;
+			remoteInfo = TaxfixExpert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06ED6BB6382EC2B690F66EC7 /* ScreenTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTitle.swift; sourceTree = "<group>"; };
+		19215F50460C166A668B99EF /* StoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreTests.swift; sourceTree = "<group>"; };
+		1A260F495261347F5281F07C /* ChecklistItem+Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChecklistItem+Symbol.swift"; sourceTree = "<group>"; };
+		1C62361D057A6F01F2D45645 /* ResultBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultBlock.swift; sourceTree = "<group>"; };
+		1D7733E924B7F67487C9E8D6 /* AdvisorBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvisorBadge.swift; sourceTree = "<group>"; };
+		28A43F34EE3A192BE8A54E24 /* ComponentGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentGalleryView.swift; sourceTree = "<group>"; };
+		342D5D45693B1FFA4632F40A /* BrandFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandFont.swift; sourceTree = "<group>"; };
+		47DBA411F59D18A6BE6654E4 /* BottomActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomActions.swift; sourceTree = "<group>"; };
+		4C3013D5C45574B06F1C7435 /* DemoMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoMenu.swift; sourceTree = "<group>"; };
+		4F581FDFD27A8E1287DC2ED3 /* CardRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRow.swift; sourceTree = "<group>"; };
+		5745F67FF288745757B74860 /* StatusPillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusPillView.swift; sourceTree = "<group>"; };
+		5806AC371DC1EE8D7B6C35FB /* advisor-mira.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "advisor-mira.jpg"; sourceTree = "<group>"; };
+		670BF87329C95C6DD2F2BF97 /* NudgeNotifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NudgeNotifier.swift; sourceTree = "<group>"; };
+		6721AF85F77F359C9EF02D5D /* StepTimeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepTimeline.swift; sourceTree = "<group>"; };
+		696ED851BE9181216D2A5A47 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		6CA3F3978F16BA1BA7F245F2 /* LiabilityResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiabilityResultView.swift; sourceTree = "<group>"; };
+		6FACB416C384DE7F335F26CC /* CaseRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseRootView.swift; sourceTree = "<group>"; };
+		760AF7A53CE23B01C2872449 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		7E35D7159005DD6FC3198688 /* FlatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatCard.swift; sourceTree = "<group>"; };
+		7E3F2ABCE56ED99BB8A6113B /* AdvisorPortrait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvisorPortrait.swift; sourceTree = "<group>"; };
+		807F523CD9DD21AC02BC84AA /* welcome-mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "welcome-mark.png"; sourceTree = "<group>"; };
+		845E6DC70445CDE0255294F4 /* TaxfixExpert.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TaxfixExpert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85589385E0A1D8C425CEB2D5 /* taxfix-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "taxfix-logo.png"; sourceTree = "<group>"; };
+		85AA56E3509BA7AC52A96715 /* ModelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsTests.swift; sourceTree = "<group>"; };
+		872FF2CDE029D75896A8C47B /* seed.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = seed.json; sourceTree = "<group>"; };
+		8BC2476719E137A1CFE23C4B /* CaseAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseAction.swift; sourceTree = "<group>"; };
+		92CFB0209C9326593FD4960D /* ChecklistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistView.swift; sourceTree = "<group>"; };
+		9FD50193A3835ED161515F8C /* FAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
+		A16C86FC7B91CC236A9F1FCC /* anna.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = anna.jpg; sourceTree = "<group>"; };
+		A17C985D6041C37EA658C114 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		A2435F0C94A22DCFC46CAF04 /* notifications-hero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notifications-hero.png"; sourceTree = "<group>"; };
+		A5DAAFEA0D2CEA6974A7D2AE /* TokenStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenStore.swift; sourceTree = "<group>"; };
+		A83CC967D5C3D016FB2FE459 /* NotificationPermissionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPermissionSheet.swift; sourceTree = "<group>"; };
+		AB28B627113CF4B11088BBF9 /* DocumentGuidance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentGuidance.swift; sourceTree = "<group>"; };
+		AD6F11D4E7855BFEEC5CB303 /* ChapterCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterCarousel.swift; sourceTree = "<group>"; };
+		ADA0A653CFA6F68CE882DC45 /* TokenStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenStyle.swift; sourceTree = "<group>"; };
+		AF2B4F6C9D53860DB1FF3811 /* advisor-jonas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "advisor-jonas.jpg"; sourceTree = "<group>"; };
+		B44066598C21E83026023A13 /* Motion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion.swift; sourceTree = "<group>"; };
+		B8C830E00ADBCE89CF187B16 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		BB6693D258D2EC5825273EB3 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		BBDEC974D1FB32752BB514E0 /* ChapterTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterTile.swift; sourceTree = "<group>"; };
+		C553739CB801EDFD18956B04 /* CaseStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseStore.swift; sourceTree = "<group>"; };
+		CCB595798AB210921E8F9107 /* advisor-tom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "advisor-tom.jpg"; sourceTree = "<group>"; };
+		D4540994EFCB3927C59B783F /* HowItWorksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowItWorksView.swift; sourceTree = "<group>"; };
+		D8E0AC572CA2D5F7F3F62110 /* Tokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokens.swift; sourceTree = "<group>"; };
+		DC12FA23CB62B005510C3708 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		DDAE5AA3BD46F64E089BAF32 /* OnboardingFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlow.swift; sourceTree = "<group>"; };
+		E1E0025D32F377C8F663D438 /* CaseHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseHomeView.swift; sourceTree = "<group>"; };
+		E32E9441E8BB0A8D148FE394 /* CollapsingHeaderScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsingHeaderScroll.swift; sourceTree = "<group>"; };
+		E47F9510471E2E6E3998FE4D /* TaxfixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxfixApp.swift; sourceTree = "<group>"; };
+		E64D84DFAFE9A496974E23C4 /* ScannerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerSheet.swift; sourceTree = "<group>"; };
+		E9FC73287909C47E50FE98F6 /* PricingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PricingView.swift; sourceTree = "<group>"; };
+		EBB349628AA9CCE217587207 /* NotificationNudges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNudges.swift; sourceTree = "<group>"; };
+		ED5D1101974E6226887F7345 /* LiabilityQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiabilityQuestionView.swift; sourceTree = "<group>"; };
+		F9A025C3D684CE3ADB2CB6E1 /* Chip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chip.swift; sourceTree = "<group>"; };
+		FA1B17742FD3F3CF2702A7EC /* TaxfixExpertTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = TaxfixExpertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7C7D8018DAEFF5D940C848 /* QuestionsPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsPlaceholderView.swift; sourceTree = "<group>"; };
+		FED8DF4E719E5059A61BB9C8 /* NudgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NudgeTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		01B085F881A105F093F23C94 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				342D5D45693B1FFA4632F40A /* BrandFont.swift */,
+				8BC2476719E137A1CFE23C4B /* CaseAction.swift */,
+				C553739CB801EDFD18956B04 /* CaseStore.swift */,
+				AB28B627113CF4B11088BBF9 /* DocumentGuidance.swift */,
+				696ED851BE9181216D2A5A47 /* Models.swift */,
+				EBB349628AA9CCE217587207 /* NotificationNudges.swift */,
+				670BF87329C95C6DD2F2BF97 /* NudgeNotifier.swift */,
+				760AF7A53CE23B01C2872449 /* RootView.swift */,
+				E47F9510471E2E6E3998FE4D /* TaxfixApp.swift */,
+				A5DAAFEA0D2CEA6974A7D2AE /* TokenStore.swift */,
+				DE83B50F55DFA47D03DCA108 /* Generated */,
+				C9E40E6B162D9C80DB7B89CD /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		2E4291CAE0B119D8C32A79DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AF2B4F6C9D53860DB1FF3811 /* advisor-jonas.jpg */,
+				5806AC371DC1EE8D7B6C35FB /* advisor-mira.jpg */,
+				CCB595798AB210921E8F9107 /* advisor-tom.jpg */,
+				A16C86FC7B91CC236A9F1FCC /* anna.jpg */,
+				A2435F0C94A22DCFC46CAF04 /* notifications-hero.png */,
+				872FF2CDE029D75896A8C47B /* seed.json */,
+				85589385E0A1D8C425CEB2D5 /* taxfix-logo.png */,
+				807F523CD9DD21AC02BC84AA /* welcome-mark.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6B231D2B11799D32FE92BF12 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1D7733E924B7F67487C9E8D6 /* AdvisorBadge.swift */,
+				7E3F2ABCE56ED99BB8A6113B /* AdvisorPortrait.swift */,
+				47DBA411F59D18A6BE6654E4 /* BottomActions.swift */,
+				4F581FDFD27A8E1287DC2ED3 /* CardRow.swift */,
+				F9A025C3D684CE3ADB2CB6E1 /* Chip.swift */,
+				E32E9441E8BB0A8D148FE394 /* CollapsingHeaderScroll.swift */,
+				7E35D7159005DD6FC3198688 /* FlatCard.swift */,
+				B44066598C21E83026023A13 /* Motion.swift */,
+				A17C985D6041C37EA658C114 /* PrimaryButton.swift */,
+				1C62361D057A6F01F2D45645 /* ResultBlock.swift */,
+				06ED6BB6382EC2B690F66EC7 /* ScreenTitle.swift */,
+				5745F67FF288745757B74860 /* StatusPillView.swift */,
+				6721AF85F77F359C9EF02D5D /* StepTimeline.swift */,
+				ADA0A653CFA6F68CE882DC45 /* TokenStyle.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		88C1C599979185C6064F68A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				845E6DC70445CDE0255294F4 /* TaxfixExpert.app */,
+				FA1B17742FD3F3CF2702A7EC /* TaxfixExpertTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D57DA87C8E1A91675FA8264 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				85AA56E3509BA7AC52A96715 /* ModelsTests.swift */,
+				FED8DF4E719E5059A61BB9C8 /* NudgeTests.swift */,
+				19215F50460C166A668B99EF /* StoreTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		AA6A5300E8B72DA46A51E86F /* Case */ = {
+			isa = PBXGroup;
+			children = (
+				E1E0025D32F377C8F663D438 /* CaseHomeView.swift */,
+				6FACB416C384DE7F335F26CC /* CaseRootView.swift */,
+				AD6F11D4E7855BFEEC5CB303 /* ChapterCarousel.swift */,
+				BBDEC974D1FB32752BB514E0 /* ChapterTile.swift */,
+				BB6693D258D2EC5825273EB3 /* ChatView.swift */,
+				1A260F495261347F5281F07C /* ChecklistItem+Symbol.swift */,
+				92CFB0209C9326593FD4960D /* ChecklistView.swift */,
+				B8C830E00ADBCE89CF187B16 /* ItemDetailView.swift */,
+				A83CC967D5C3D016FB2FE459 /* NotificationPermissionSheet.swift */,
+				E64D84DFAFE9A496974E23C4 /* ScannerSheet.swift */,
+			);
+			path = Case;
+			sourceTree = "<group>";
+		};
+		C461CE4921A0C709B54B3412 = {
+			isa = PBXGroup;
+			children = (
+				2E4291CAE0B119D8C32A79DC /* Resources */,
+				01B085F881A105F093F23C94 /* Sources */,
+				8D57DA87C8E1A91675FA8264 /* Tests */,
+				88C1C599979185C6064F68A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9E40E6B162D9C80DB7B89CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				28A43F34EE3A192BE8A54E24 /* ComponentGalleryView.swift */,
+				4C3013D5C45574B06F1C7435 /* DemoMenu.swift */,
+				9FD50193A3835ED161515F8C /* FAQView.swift */,
+				AA6A5300E8B72DA46A51E86F /* Case */,
+				6B231D2B11799D32FE92BF12 /* Components */,
+				EC1F846E8A89AC7DB6FAAD36 /* Onboarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DE83B50F55DFA47D03DCA108 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				D8E0AC572CA2D5F7F3F62110 /* Tokens.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		EC1F846E8A89AC7DB6FAAD36 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				D4540994EFCB3927C59B783F /* HowItWorksView.swift */,
+				ED5D1101974E6226887F7345 /* LiabilityQuestionView.swift */,
+				6CA3F3978F16BA1BA7F245F2 /* LiabilityResultView.swift */,
+				DDAE5AA3BD46F64E089BAF32 /* OnboardingFlow.swift */,
+				E9FC73287909C47E50FE98F6 /* PricingView.swift */,
+				FA7C7D8018DAEFF5D940C848 /* QuestionsPlaceholderView.swift */,
+				DC12FA23CB62B005510C3708 /* WelcomeView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55AF7FCF9229328275C9F4EC /* TaxfixExpertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B080DF98B96120CDE2737526 /* Build configuration list for PBXNativeTarget "TaxfixExpertTests" */;
+			buildPhases = (
+				B964C07E8052CFE0B0419403 /* Sources */,
+				66644FD09AA4DDECB66C4AE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37FAE3A4874ADE0D037FE334 /* PBXTargetDependency */,
+			);
+			name = TaxfixExpertTests;
+			packageProductDependencies = (
+			);
+			productName = TaxfixExpertTests;
+			productReference = FA1B17742FD3F3CF2702A7EC /* TaxfixExpertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1FF708163943820EA46223C /* TaxfixExpert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3650AF1F0FDBA2F451136586 /* Build configuration list for PBXNativeTarget "TaxfixExpert" */;
+			buildPhases = (
+				00BB70AF2218943242EAE46D /* Sources */,
+				8BFA6028E425CDA7D85BD656 /* Sync brand fonts (if present) */,
+				E4A1DE219B615D53F35707F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaxfixExpert;
+			packageProductDependencies = (
+			);
+			productName = TaxfixExpert;
+			productReference = 845E6DC70445CDE0255294F4 /* TaxfixExpert.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38B269DC95C8E298D77DE382 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 77CA72EEF405BAE3304D85AD /* Build configuration list for PBXProject "TaxfixExpert" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C461CE4921A0C709B54B3412;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 88C1C599979185C6064F68A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1FF708163943820EA46223C /* TaxfixExpert */,
+				55AF7FCF9229328275C9F4EC /* TaxfixExpertTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66644FD09AA4DDECB66C4AE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB8247A1A70044685FAF2ED /* advisor-jonas.jpg in Resources */,
+				7993C6BCE36E7A2501F9D489 /* advisor-mira.jpg in Resources */,
+				5ED7EEAC9340643F6ED89803 /* advisor-tom.jpg in Resources */,
+				B14505FF14D1B3C848CC3357 /* anna.jpg in Resources */,
+				C62B6737F614FA16F885CA15 /* notifications-hero.png in Resources */,
+				2D61255A4464CFC9348A759E /* seed.json in Resources */,
+				2D4E532C1ADC54D0ECCA8F9C /* taxfix-logo.png in Resources */,
+				32DE5B380EA448DDF3D7089E /* welcome-mark.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4A1DE219B615D53F35707F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6D79095A2B1E9E42249ACC /* advisor-jonas.jpg in Resources */,
+				FFE1474ABBE378CF791A6008 /* advisor-mira.jpg in Resources */,
+				BEF8F185F5FA43DAA38DBD09 /* advisor-tom.jpg in Resources */,
+				42CA737B7651C5CA6B2AF58C /* anna.jpg in Resources */,
+				F47C366D64362AB93C35AB57 /* notifications-hero.png in Resources */,
+				9E512B01D08BF7689BED4753 /* seed.json in Resources */,
+				B0064EC8FC3F84C8E3E7B479 /* taxfix-logo.png in Resources */,
+				B89F66FA3DCB87CECE3CD538 /* welcome-mark.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BFA6028E425CDA7D85BD656 /* Sync brand fonts (if present) */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Sync brand fonts (if present)";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# ABC ROM OTFs are TRIAL-licensed and gitignored. This copies them\n# from ios/Resources/Fonts into the built app bundle when a\n# developer has run `npm run sync:fonts` locally. Safe no-op\n# otherwise — BrandFont.swift falls back to system fonts.\ncp \"$SRCROOT/Resources/Fonts/\"*.otf \"$BUILT_PRODUCTS_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/\" 2>/dev/null || true\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00BB70AF2218943242EAE46D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D454D328C8837854779408DE /* AdvisorBadge.swift in Sources */,
+				EEB2EB7DE23ABCC4077C2305 /* AdvisorPortrait.swift in Sources */,
+				3842AC5D490FDE8F61B3BE67 /* BottomActions.swift in Sources */,
+				947D7FE63F3153E674F33BAC /* BrandFont.swift in Sources */,
+				97DF9880DB767C5E3CEA0BD9 /* CardRow.swift in Sources */,
+				B668FD2E0AF47C39510AA681 /* CaseAction.swift in Sources */,
+				5A5AF0164E01A21B24043E6A /* CaseHomeView.swift in Sources */,
+				A6663CC8E160E131F0AFB1D4 /* CaseRootView.swift in Sources */,
+				C6DC0828190AC2D8343062AA /* CaseStore.swift in Sources */,
+				544C44FB1612B3E990D72F5C /* ChapterCarousel.swift in Sources */,
+				ABBB139477E8D2B602C1E7C0 /* ChapterTile.swift in Sources */,
+				DB4F5BDD2920B3F76CCD8FED /* ChatView.swift in Sources */,
+				38E7C308B6E967C454FA2180 /* ChecklistItem+Symbol.swift in Sources */,
+				8BA545DA9BE37BCEF2D15A0C /* ChecklistView.swift in Sources */,
+				9E01E200F48A531D426CE481 /* Chip.swift in Sources */,
+				985DC1EA035C80E2F118CEEE /* CollapsingHeaderScroll.swift in Sources */,
+				0F381CFFD5D0976531B594B1 /* ComponentGalleryView.swift in Sources */,
+				143803B25722D943D0EF6E15 /* DemoMenu.swift in Sources */,
+				4F7DD8BA5B86E0AEEE5160D5 /* DocumentGuidance.swift in Sources */,
+				43F0293534D3DFFE72E7BF24 /* FAQView.swift in Sources */,
+				2304C3E3FD2C72D28AB16C78 /* FlatCard.swift in Sources */,
+				593CFFD38757561AE75530EA /* HowItWorksView.swift in Sources */,
+				4C935A8A801AB5037B9403C8 /* ItemDetailView.swift in Sources */,
+				4D0070FEDB28AE32A18A3308 /* LiabilityQuestionView.swift in Sources */,
+				0F3B1FBA03CE4C3082038C4E /* LiabilityResultView.swift in Sources */,
+				120D7632483807F0B20F147B /* Models.swift in Sources */,
+				07EE3BFE859BF77E5E343FAD /* Motion.swift in Sources */,
+				30528BC9D1C9268E9AC46D69 /* NotificationNudges.swift in Sources */,
+				CC6ECD16AE1781557DD214F4 /* NotificationPermissionSheet.swift in Sources */,
+				8EE515CFBD2EAC017E5A4250 /* NudgeNotifier.swift in Sources */,
+				C2040541F8BD726887ABB359 /* OnboardingFlow.swift in Sources */,
+				FB9E2FD3F5233B928953AAAB /* PricingView.swift in Sources */,
+				6E62A405DABF129C5A2817EC /* PrimaryButton.swift in Sources */,
+				D218CBE87FB78909255A5AC0 /* QuestionsPlaceholderView.swift in Sources */,
+				E128B8CC32A7C1D5A2C99DCA /* ResultBlock.swift in Sources */,
+				A0F5F0534C8445AD63CFBA54 /* RootView.swift in Sources */,
+				7A46240D677F20D3A885E8E9 /* ScannerSheet.swift in Sources */,
+				4ABBF81D6C9ABE38B105F5FE /* ScreenTitle.swift in Sources */,
+				85DC6B0B9EB4AF6A53525BF6 /* StatusPillView.swift in Sources */,
+				8799AEBA0BF262B4A1AEE930 /* StepTimeline.swift in Sources */,
+				A994B89D521333201F04B5F9 /* TaxfixApp.swift in Sources */,
+				4F288078469CFA07A5780784 /* TokenStore.swift in Sources */,
+				430F17666B1EAE298C7104FD /* TokenStyle.swift in Sources */,
+				1C99E1118D941FF46C69869D /* Tokens.swift in Sources */,
+				55D61A3853CF6599900DCFD7 /* WelcomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B964C07E8052CFE0B0419403 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A3CBCC8F31358B835CEED2 /* ModelsTests.swift in Sources */,
+				C71D659D41EED8E811AD9594 /* NudgeTests.swift in Sources */,
+				C6F34B0D7CDD464FD5DFDB56 /* StoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37FAE3A4874ADE0D037FE334 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1FF708163943820EA46223C /* TaxfixExpert */;
+			targetProxy = EAF8D168DAA36CAFD83C2340 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26303294F476396E811A1A7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3BB0656936345EA9E45AA089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.cloover.TaxfixExpert;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.10;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3D402AEBE31764976EC2F762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.cloover.TaxfixExpertTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaxfixExpert.app/TaxfixExpert";
+			};
+			name = Debug;
+		};
+		5BE59BF22EA74B1BD5DD78FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.cloover.TaxfixExpert;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.10;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5FB57A9344929F4EE917080B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		69F8B612CB19E98DACEBCFD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.cloover.TaxfixExpertTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaxfixExpert.app/TaxfixExpert";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3650AF1F0FDBA2F451136586 /* Build configuration list for PBXNativeTarget "TaxfixExpert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB0656936345EA9E45AA089 /* Debug */,
+				5BE59BF22EA74B1BD5DD78FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		77CA72EEF405BAE3304D85AD /* Build configuration list for PBXProject "TaxfixExpert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FB57A9344929F4EE917080B /* Debug */,
+				26303294F476396E811A1A7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B080DF98B96120CDE2737526 /* Build configuration list for PBXNativeTarget "TaxfixExpertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D402AEBE31764976EC2F762 /* Debug */,
+				69F8B612CB19E98DACEBCFD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38B269DC95C8E298D77DE382 /* Project object */;
+}

@@ -1,0 +1,322 @@
+/* /stakeholders, two interview columns. Motion matches the press deck:
+   soft ease-out, no bounce, per-message fade-and-settle. */
+.sh {
+  --sh-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  height: 100vh;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: var(--color-surface);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+.sh-page__header {
+  flex: none;
+  width: min(1200px, 92vw);
+  margin: 0 auto;
+  padding: var(--space-6) 0 var(--space-3);
+}
+
+.sh-page__title {
+  margin: 0;
+  font-size: var(--text-display);
+  line-height: 1.1;
+}
+
+/* The two chats share whatever height is left and never push the page into scrolling. */
+.sh-columns {
+  flex: 1;
+  min-height: 0;
+  box-sizing: border-box;
+  width: min(1200px, 92vw);
+  margin: 0 auto;
+  padding: 0 0 var(--space-4);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-4);
+}
+
+.sh--embed .sh-columns {
+  width: 100%;
+  padding: var(--space-3);
+  gap: var(--space-3);
+}
+
+.sh-column {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  position: relative;
+  background: var(--color-surface-muted);
+}
+
+.sh-column__header {
+  display: flex;
+  gap: var(--space-3);
+  align-items: center;
+  padding: var(--space-3) var(--space-4);
+}
+
+.sh-column__actions {
+  margin-left: auto;
+  display: flex;
+  gap: var(--space-3);
+  font-size: var(--text-caption);
+}
+
+.sh-portrait {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex: none;
+}
+
+.sh-column__identity {
+  min-width: 0;
+}
+
+.sh-column__name {
+  margin: 0;
+  font-size: var(--text-title);
+  line-height: 1.2;
+}
+
+.sh-column__situation {
+  margin: 2px 0 0;
+  font-size: var(--text-caption);
+  color: var(--color-ink-soft);
+}
+
+.sh-link {
+  border: 0;
+  background: none;
+  padding: 0;
+  font: inherit;
+  color: var(--color-primary-ink, var(--color-primary));
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.sh-sources {
+  padding: var(--space-3) var(--space-4);
+  font-size: var(--text-caption);
+  animation: sh-enter 500ms var(--sh-ease) both;
+  background: var(--color-surface);
+}
+
+.sh-sources__disclaimer {
+  margin: 0 0 var(--space-2);
+  color: var(--color-ink-soft);
+}
+
+.sh-sources__list {
+  margin: 0;
+  padding-left: 1.2em;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.sh-sources__credit {
+  margin: var(--space-2) 0 0;
+  color: var(--color-ink-soft);
+}
+
+.sh-transcript {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.sh-transcript__empty {
+  margin: auto;
+  color: var(--color-ink-soft);
+  font-style: italic;
+}
+
+@keyframes sh-enter {
+  from {
+  opacity: 0;
+  transform: translateY(8px);
+}
+  to {
+  opacity: 1;
+  transform: translateY(0);
+}
+}
+
+.sh-msg {
+  max-width: 82%;
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-card);
+  line-height: 1.5;
+  animation: sh-enter 700ms var(--sh-ease) both;
+}
+
+.sh-msg--persona {
+  align-self: flex-start;
+  border-bottom-left-radius: 6px;
+  background: var(--color-surface);
+}
+
+.sh-msg--interviewer {
+  align-self: flex-end;
+  background: var(--color-info-bg);
+  color: var(--color-ink);
+  border-bottom-right-radius: 6px;
+}
+
+.sh-msg__text {
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+.sh-typing {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-caption);
+  color: var(--color-ink-soft);
+  animation: sh-enter 500ms var(--sh-ease) both;
+}
+
+.sh-typing__dots {
+  display: inline-flex;
+  gap: 3px;
+}
+
+.sh-typing__dots i {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: currentColor;
+  opacity: 0.35;
+  animation: sh-blink 1.2s infinite ease-in-out;
+}
+
+.sh-typing__dots i:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.sh-typing__dots i:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes sh-blink {
+  0%, 80%, 100% {
+  opacity: 0.25;
+}
+  40% {
+  opacity: 0.9;
+}
+}
+
+.sh-composer {
+  display: flex;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-4);
+}
+
+.sh-composer__input {
+  flex: 1;
+  font: inherit;
+  padding: 10px 14px;
+  border-radius: var(--radius-pill);
+  color: var(--color-ink);
+  background: var(--color-surface);
+}
+
+.sh-composer__input:focus {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 1px;
+}
+
+.sh-composer__send {
+  flex: none;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: var(--color-primary);
+  color: var(--color-primary-ink);
+  cursor: pointer;
+  transition: opacity 200ms ease, transform 300ms var(--sh-ease);
+}
+
+.sh-composer__send:not(:disabled):hover {
+  transform: translateY(-1px);
+}
+
+.sh-composer__send:disabled,
+.sh-composer__input:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.sh-offline {
+  margin: 0;
+  padding: 0 var(--space-4) var(--space-3);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  font-size: var(--text-caption);
+  font-weight: 600;
+  color: var(--color-warning);
+}
+
+.sh-offline__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-warning);
+}
+
+@media (max-width: 900px) {
+  .sh-columns {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 100%;
+  padding: 0 var(--space-3) var(--space-3);
+}
+  .sh-page__header {
+  width: 100%;
+  padding: var(--space-4) var(--space-3) var(--space-2);
+}
+  .sh-page__title {
+  font-size: var(--text-title);
+}
+}
+
+@media (max-height: 600px) {
+  .sh-page__header {
+  padding-top: var(--space-3);
+  padding-bottom: var(--space-2);
+}
+  .sh-page__title {
+  font-size: var(--text-title);
+}
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sh-msg,
+  .sh-typing,
+  .sh-sources,
+  .sh-typing__dots i {
+  animation: none !important;
+}
+}

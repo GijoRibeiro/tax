@@ -1,0 +1,55 @@
+name: TaxfixExpert
+options:
+  bundleIdPrefix: co.cloover
+  deploymentTarget:
+    iOS: "18.0"
+targets:
+  TaxfixExpert:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources
+      - path: Resources
+        # ABC ROM OTFs are gitignored (TRIAL license) and synced locally via
+        # `npm run sync:fonts`. They must NOT be referenced by the pbxproj —
+        # a fresh clone without them would fail to build. A run-script build
+        # phase below copies them into the bundle when present instead.
+        excludes:
+          - "Fonts/**"
+    info:
+      path: Info.plist
+      properties:
+        UILaunchScreen: {}
+        NSAppTransportSecurity:
+          NSAllowsLocalNetworking: true
+        UIAppFonts:
+          - ABCROM-Book-Trial.otf
+          - ABCROM-Medium-Trial.otf
+          - ABCROM-Bold-Trial.otf
+          - ABCROM-Black-Trial.otf
+    settings:
+      base:
+        TARGETED_DEVICE_FAMILY: "1"
+        SWIFT_VERSION: "5.10"
+    postCompileScripts:
+      - name: "Sync brand fonts (if present)"
+        basedOnDependencyAnalysis: false
+        script: |
+          # ABC ROM OTFs are TRIAL-licensed and gitignored. This copies them
+          # from ios/Resources/Fonts into the built app bundle when a
+          # developer has run `npm run sync:fonts` locally. Safe no-op
+          # otherwise — BrandFont.swift falls back to system fonts.
+          cp "$SRCROOT/Resources/Fonts/"*.otf "$BUILT_PRODUCTS_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/" 2>/dev/null || true
+  TaxfixExpertTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: Tests
+      - path: Resources
+        excludes:
+          - "Fonts/**"
+    dependencies:
+      - target: TaxfixExpert
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
